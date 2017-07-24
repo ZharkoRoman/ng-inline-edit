@@ -8,6 +8,7 @@
       btnSave: '',
       btnCancel: '',
       editOnClick: false,
+      editOnDblClick: false,
       onBlur: null
     })
     .constant('InlineEditConstants', {
