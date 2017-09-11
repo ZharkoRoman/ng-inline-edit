@@ -79,10 +79,10 @@
               attrs.inlineEditBtnEdit : InlineEditConfig.btnEdit;
             if (inlineEditBtnEdit) {
               innerContainer.append(angular.element(
-                '<a class="ng-inline-edit__button ng-inline-edit__button--edit" ' +
+                '<a class="ng-inline-edit__button ng-inline-edit__button--edit btn btn-default btn-sm edit-title" ' +
                 'ng-if="!editMode" ' +
                 'ng-click="editText()">' +
-                inlineEditBtnEdit +
+                '<span id="edit" class="icon-edit"></span>' +
                 '</a>'));
             }
 
